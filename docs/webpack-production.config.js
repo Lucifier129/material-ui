@@ -16,6 +16,9 @@ const config = {
     alias: {
       // material-ui requires will be searched in src folder, not in node_modules
       'material-ui': path.resolve(__dirname, '../src'),
+      'react': 'react-lite',
+      'react-dom': 'react-lite',
+      'react-tap-event-plugin': 'react-lite/lib/react-tap-event-plugin',
     },
   },
   devtool: 'source-map',
